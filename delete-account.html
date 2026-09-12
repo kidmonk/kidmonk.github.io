@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Delete Account | Kid Monk</title>
+    <meta
+      name="description"
+      content="Request deletion of your Kid Monk parent account and associated child data without reinstalling the app."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <nav class="nav" aria-label="Legal">
+        <a class="brand" href="./">Kid Monk</a>
+        <div class="nav-links">
+          <a href="./">Privacy Policy</a>
+          <a href="./delete-account.html">Delete Account</a>
+        </div>
+      </nav>
+
+      <article class="card">
+        <h1>Delete your Kid Monk account</h1>
+        <p class="muted">
+          App name on Google Play: Kid Monk. You can request deletion here
+          without installing or opening the app.
+        </p>
+
+        <h2>What is deleted</h2>
+        <p>
+          When we process your request, we delete the parent account and all
+          associated child data from our active databases, including profile
+          information, learning progress, and related records.
+        </p>
+
+        <h2>What may be retained briefly</h2>
+        <p>
+          Encrypted automated database backups are automatically purged on a
+          standard 7-to-30 day cycle. We do not keep your account for marketing.
+        </p>
+
+        <h2>How long it takes</h2>
+        <p>
+          In-app deletion through Settings &gt; Account &gt; Delete Account is
+          immediate. Web requests sent from this page are processed as soon as
+          we verify the parent email, usually within 7 days.
+        </p>
+
+        <h2>Request deletion by email</h2>
+        <p>
+          Send a message from the parent email used to create the account.
+          Include the words <strong>delete Kid Monk account</strong>.
+        </p>
+        <p>
+          <a class="btn" href="mailto:kidmonk@geekypi.co.in?subject=Delete%20Kid%20Monk%20account&body=Please%20delete%20my%20Kid%20Monk%20parent%20account%20and%20all%20associated%20child%20data.%0A%0AParent%20email%3A%20">
+            Email deletion request
+          </a>
+        </p>
+        <p>
+          Or write to
+          <a href="mailto:kidmonk@geekypi.co.in">kidmonk@geekypi.co.in</a>.
+        </p>
+
+        <h2>Request deletion with this form</h2>
+        <form
+          action="https://formsubmit.co/kidmonk@geekypi.co.in"
+          method="POST"
+        >
+          <input type="hidden" name="_subject" value="Kid Monk account deletion request" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="hidden"
+            name="_next"
+            value="https://kidmonk.github.io/delete-account-sent.html"
+          />
+
+          <label for="email">Parent email used for the Kid Monk account</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            required
+            autocomplete="email"
+            placeholder="parent@email.com"
+          />
+
+          <label for="name">Parent full name (optional)</label>
+          <input id="name" name="name" type="text" autocomplete="name" />
+
+          <label for="message">Anything we should know (optional)</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Please delete my Kid Monk account and all child data."
+          ></textarea>
+
+          <label class="checkbox">
+            <input type="checkbox" name="confirm" value="yes" required />
+            <span>
+              I am the parent or guardian for this account and I want Kid
+              Monk to permanently delete the account and associated child data.
+            </span>
+          </label>
+
+          <button class="btn" type="submit">Submit deletion request</button>
+        </form>
+
+        <p class="note">
+          If you still have the app installed, you can also delete immediately
+          in the app: Settings &gt; Account &gt; Delete Account.
+        </p>
+      </article>
+
+      <p class="footer">
+        Kid Monk is published by Sage Behavioral Technologies.
+      </p>
+    </main>
+  </body>
+</html>

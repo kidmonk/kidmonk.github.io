@@ -1,0 +1,164 @@
+:root {
+  --navy: #00284a;
+  --body: #334155;
+  --muted: #8791a0;
+  --bg: #fcf7f3;
+  --card: #ffffff;
+  --green: #16a34a;
+  --danger: #e63946;
+  --line: #e8e4df;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Nunito, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--body);
+  line-height: 1.6;
+}
+
+a {
+  color: var(--green);
+}
+
+.wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.brand {
+  color: var(--navy);
+  font-weight: 800;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 16px;
+}
+
+.nav-links a {
+  color: var(--navy);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 16px;
+  padding: 28px 24px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 4%);
+}
+
+h1 {
+  margin: 0 0 8px;
+  color: var(--navy);
+  font-size: 28px;
+  line-height: 1.25;
+}
+
+h2 {
+  margin: 28px 0 8px;
+  color: var(--navy);
+  font-size: 18px;
+}
+
+.muted {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.intro {
+  margin-top: 16px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin: 8px 0;
+}
+
+label {
+  display: block;
+  margin: 16px 0 6px;
+  color: var(--navy);
+  font-weight: 700;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 12px 14px;
+  font: inherit;
+}
+
+textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.checkbox {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin: 16px 0;
+}
+
+.checkbox input {
+  width: auto;
+  margin-top: 4px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 8px;
+  border: 0;
+  border-radius: 12px;
+  padding: 12px 18px;
+  background: var(--danger);
+  color: #fff;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background: var(--green);
+}
+
+.note {
+  margin-top: 20px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: #fff4e5;
+}
+
+.footer {
+  margin-top: 24px;
+  color: var(--muted);
+  font-size: 13px;
+}
