@@ -54,8 +54,8 @@
           </li>
           <li>
             Child's First Name: Used solely to personalize the user interface
-            and app interactions. If a parent uses Friends, the child's first
-            name can be shown to other Kid Monk users they connect with.
+            and app interactions. If the child uses Friends, their first name
+            can be shown to other Kid Monk children they connect with.
           </li>
           <li>
             Child's Age &amp; Grade: Used to filter and serve age-appropriate
@@ -65,14 +65,18 @@
             Learning Preferences of the Child: Used to initialize our content
             recommendation engine.
           </li>
-          <li>
-            Account IDs and Friend Code: We create an internal account ID and a
-            child Friend Code (Kid ID) so a parent can add friends for Friend
-            Fights and related features. This code is not an advertising or
-            device identifier, and we do not use it to track children across
-            other apps.
-          </li>
         </ul>
+        <p>
+          When a child profile is created, we also generate identifiers needed
+          to operate the app. The Parent Account ID is an internal ID for the
+          parent login. The Child Profile ID is an internal UUID for that child,
+          used for learning progress and related records. The Friend Code (Kid
+          ID) is a short in-app code. The child can share their Friend Code or
+          enter another child’s Friend Code in the app to add friends and use
+          Friend Fights. These identifiers are not advertising or device
+          identifiers, and we do not use them to track children across other
+          apps.
+        </p>
 
         <h2>2. How We Use Your Information</h2>
         <p>
